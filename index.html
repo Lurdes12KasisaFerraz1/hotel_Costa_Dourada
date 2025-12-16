@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Hotel Costa Dourada – Viseu | 5 Estrelas Dão</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1 data-key="heroTitle">Hotel Costa Dourada – Viseu</h1>
+            <p class="subtitle" data-key="heroSubtitle">O seu refúgio 5 Estrelas no Coração do Dão.</p>
+            <a href="#reservas" class="btn primary-btn" data-key="bookNowBtn">Reservar Agora</a>
+        </div>
+        
+        <div id="language-switcher">
+            <a href="#" class="lang-btn" data-lang="pt">PT</a> | 
+            <a href="#" class="lang-btn" data-lang="en">EN</a> |
+            <a href="#" class="lang-btn" data-lang="es">ES</a>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#geral" data-key="navHotel"><i class="fas fa-info-circle"></i> Hotel</a></li>
+            <li><a href="#quartos" data-key="navRooms"><i class="fas fa-bed"></i> Quartos</a></li>
+            <li><a href="#restaurante" data-key="navDining"><i class="fas fa-utensils"></i> Gastronomia</a></li>
+            <li><a href="#spa" data-key="navSpa"><i class="fas fa-spa"></i> SPA</a></li>
+            <li><a href="#localizacao" data-key="navViseu"><i class="fas fa-map-marker-alt"></i> Viseu</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="geral" class="section general">
+            <div class="container">
+                <h2 data-key="welcomeTitle">Bem-Vindo a Viseu</h2>
+                <p data-key="welcomeText">O Hotel Costa Dourada – Viseu é um hotel 5 estrelas com um estilo contemporâneo, inspirado na serenidade e beleza das paisagens do Dão. Combinamos conforto moderno, excelência em gastronomia regional e instalações de luxo para uma estadia inesquecível.</p>
+            </div>
+        </section>
+
+        <section id="quartos" class="section rooms bg-light">
+            <div class="container">
+                <h2 data-key="roomsTitle">Alojamento de Luxo</h2>
+                <p class="section-description" data-key="roomsDescription">O seu descanso é a nossa prioridade. Escolha a sua vista e o seu conforto.</p>
+                <div class="room-cards">
+                    <div class="card room-card">
+                        <img src="images/suite-dao.jpg" alt="Suíte Dão">
+                        <h3 data-key="suiteDãoTitle">Suíte Dão</h3>
+                        <p data-key="suiteDãoDescription">Vista panorâmica sobre Viseu, Sala de estar e Varanda privada.</p>
+                        <span class="price" data-key="suiteDãoPrice">€310 / noite</span>
+                        <a href="#" class="btn secondary-btn" data-key="viewDetailsBtn">Ver Detalhes</a>
+                    </div>
+                    <div class="card room-card">
+                        <img src="images/quarto-serra.jpg" alt="Quarto Superior Serra">
+                        <h3 data-key="superiorSerraTitle">Quarto Superior Serra</h3>
+                        <p data-key="superiorSerraDescription">Vista deslumbrante para a Serra do Caramulo. Ideal para casais.</p>
+                        <span class="price" data-key="superiorSerraPrice">€190 / noite</span>
+                        <a href="#" class="btn secondary-btn" data-key="viewDetailsBtn">Ver Detalhes</a>
+                    </div>
+                    <div class="card room-card">
+                        <img src="images/quarto-standard.jpg" alt="Quarto Standard Centro Histórico">
+                        <h3 data-key="standardHistoricTitle">Quarto Standard Centro Histórico</h3>
+                        <p data-key="standardHistoricDescription">Vista urbana, conforto essencial. Perfeito para estadias curtas.</p>
+                        <span class="price" data-key="standardHistoricPrice">€140 / noite</span>
+                        <a href="#" class="btn secondary-btn" data-key="viewDetailsBtn">Ver Detalhes</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="restaurante" class="section dining">
+            <div class="container dining-grid">
+                <div class="dining-info">
+                    <h2 data-key="diningTitle">Restaurante “Sabores do Centro”</h2>
+                    <p class="section-description" data-key="diningDescription">A nossa cozinha é uma homenagem à Beira, reinventada. Produtos Dão-Lafões e os melhores Vinhos do Dão em destaque.</p>
+                    
+                    <h3 data-key="chefSuggestionsTitle">Sugestões do Chef:</h3>
+                    <ul>
+                        <li><i class="fas fa-pepper-hot"></i> <span data-key="dish1">**Vitela de Lafões IGP**</span></li>
+                        <li><i class="fas fa-fish"></i> <span data-key="dish2">**Bacalhau à Beirã**</span></li>
+                        <li><i class="fas fa-seedling"></i> <span data-key="dish3">**Arroz de Carqueja**</span></li>
+                        <li><i class="fas fa-drumstick-bite"></i> <span data-key="dish4">**Enchidos artesanais da região**</span></li>
+                        <li><i class="fas fa-cookie-bite"></i> <span data-key="dish5">**Encharcada de Viseu**</span> (Doçaria Conventual)</li>
+                    </ul>
+                </div>
+                <div class="dining-image">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Restaurante Sabores do Centro">
+                </div>
+            </div>
+        </section>
+
+        <section id="spa" class="section spa bg-light">
+            <div class="container">
+                <h2 data-key="spaTitle">💆 SPA & Bem-estar</h2>
+                <p class="section-description" data-key="spaDescription">Relaxe e revitalize-se. Um santuário de tranquilidade com a pureza da Serra da Estrela.</p>
+                
+                <div class="spa-features">
+                    <div><i class="fas fa-hot-tub"></i> <span data-key="spaFeature1">**Circuito de Águas**</span></div>
+                    <div><i class="fas fa-sauna"></i> <span data-key="spaFeature2">**Sauna & Banho Turco**</span></div>
+                    <div><i class="fas fa-hand-holding-medical"></i> <span data-key="spaFeature3">**Massagens com Óleos Aromáticos**</span></div>
+                    <div><i class="fas fa-water"></i> <span data-key="spaFeature4">**Piscina Interior Aquecida**</span></div>
+                </div>
+                <a href="#" class="btn primary-btn" data-key="bookSpaBtn">Marcar Tratamento</a>
+            </div>
+        </section>
+
+        <section id="localizacao" class="section location">
+            <div class="container">
+                <h2 data-key="viseuDiscoverTitle">🏙 Descubra Viseu</h2>
+                <p class="section-description" data-key="viseuDiscoverDescription">Estamos no local perfeito para explorar a riqueza cultural e natural do Centro de Portugal.</p>
+                
+                <div class="activities-grid">
+                    <div class="activity-item">
+                        <i class="fas fa-archway"></i>
+                        <h3 data-key="activity1Title">Sé de Viseu & Museu Grão Vasco</h3>
+                        <p data-key="activity1Description">História e arte no coração do Centro Histórico, a poucos minutos do hotel.</p>
+                    </div>
+                    <div class="activity-item">
+                        <i class="fas fa-route"></i>
+                        <h3 data-key="activity2Title">Ecopista do Dão</h3>
+                        <p data-key="activity2Description">Aproveite a maior ecopista de Portugal, ideal para passeios de bicicleta ou caminhadas.</p>
+                    </div>
+                    <div class="activity-item">
+                        <i class="fas fa-wine-glass-alt"></i>
+                        <h3 data-key="activity3Title">Rota do Vinho do Dão</h3>
+                        <p data-key="activity3Description">Descubra as quintas locais e delicie-se com os aclamados vinhos Dão.</p>
+                    </div>
+                </div>
+
+                <div class="contact-info">
+                    <h3 data-key="contactTitle">Contactos</h3>
+                    <p><i class="fas fa-phone"></i> <span data-key="phoneLabel">**Telefone:**</span> ‪+351 232 450 210‬</p>
+                    <p><i class="fas fa-envelope"></i> <span data-key="emailLabel">**Email:**</span> <a href="mailto:info@costadouradahotel.pt">info@costadouradahotel.pt</a></p>
+                    <p><i class="fas fa-map-pin"></i> <span data-key="addressLabel">**Morada:**</span> Avenida Europa, 145 – 3510-123 Viseu, Portugal</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p data-key="footerText">&copy; 2025 Hotel Costa Dourada – Viseu. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
